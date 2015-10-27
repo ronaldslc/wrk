@@ -1,3 +1,9 @@
+**This fork is changed by me (ronaldslc) for use on OSX, it will track official wrk**
+	
+	The changes are:
+	* Links with MacPort's OpenSSL
+	* Disables SSLv2 & SSLv3
+
 wrk - a HTTP benchmarking tool
 
   wrk is a modern HTTP benchmarking tool capable of generating significant

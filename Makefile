@@ -26,8 +26,8 @@ OBJ  := $(patsubst %.c,$(ODIR)/%.o,$(SRC)) $(ODIR)/bytecode.o
 
 LDIR     = deps/luajit/src
 LIBS    := -lluajit $(LIBS)
-CFLAGS  += -I$(LDIR)
-LDFLAGS += -L$(LDIR)
+CFLAGS  += -I/opt/local/include -I$(LDIR)
+LDFLAGS += -L/opt/local/lib -L$(LDIR)
 
 all: $(BIN)
 
