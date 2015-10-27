@@ -1,8 +1,8 @@
-**This fork is changed by me (ronaldslc) for use on OSX, it will track official wrk**
+This fork is specifically made by me (ronaldslc) for use in OSX.
 	
-	The changes are:
-	* Links with MacPort's OpenSSL
-	* Disables SSLv2 & SSLv3
+The changes are:
+  * Links with MacPort's OpenSSL
+  * Disables SSLv2 & SSLv3
 
 wrk - a HTTP benchmarking tool
 
